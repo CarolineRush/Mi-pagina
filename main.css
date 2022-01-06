@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
-
+/* EL  HEADER */
 header {
     background-color: #131353;
-    width: 100vw;
     height: 12vh;
     font-family: 'Raleway', sans-serif;
 }
@@ -48,3 +47,34 @@ nav a:hover {
     color: #e7d674ec;
 }
 
+/* 1ER ARTICLE: HOME */
+
+.first-art {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code-proud {
+    width: 70%;
+    height: 60%;
+    margin-top: 5vh;
+}
+
+.container-first {
+    background-color: #38389e;
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+   font-family: 'Luxurious Roman', cursive;
+   font-size: 2em; 
+   margin: 10px;
+   padding: 10px;
+   color: #ddd238;
+}
