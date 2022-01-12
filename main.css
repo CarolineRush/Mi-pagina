@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+
 /* EL  HEADER */
 header {
     background-color: #131353;
-    height: 12vh;
     font-family: 'Raleway', sans-serif;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -18,10 +22,9 @@ nav {
 }
 
 nav a {
-    color: #ddd238;
+    color: #deb887;
     text-decoration: none;
     padding: 20px;
-    font-family: 'Luxurious Roman', cursive;
     font-size: 13px;
 }
 
@@ -29,8 +32,12 @@ nav a:hover {
     color: #e7d674ec;
 }
 
-.barra-nav {
-    color: #ddd238;
+.tipo {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.barra-nav li a{
+    color: #deb887;
     padding: 15px;
     font-size: 1.2em;
     list-style: none;
@@ -43,7 +50,7 @@ nav a:hover {
     margin: 0 10px 0 10px;
 }
 
-.barra-nav li:hover{
+.barra-nav li a:hover{
     color: #e7d674ec;
 }
 
@@ -53,6 +60,7 @@ nav a:hover {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -76,5 +84,64 @@ h1 {
    font-size: 2em; 
    margin: 10px;
    padding: 10px;
-   color: #ddd238;
+   color: #deb887;
+   letter-spacing: 1px;
+}
+
+
+.develop {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+/* 2DO ARTICLE: SOBRE MI */
+
+.second-art {
+    height: 100vh;
+    background-color: #deb887;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-art img, p {
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.about {
+    font-size: 3.2em;
+    font-family: 'Raleway', sans-serif;
+    color: #38389e;
+    text-align: center;
+    width: 100vw;
+}
+
+.second-art img {
+    width: 25%;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.second-art p {
+    width: 30%;
+    font-size: 1em;
+    font-family: 'Luxurious Roman', cursive;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.btn-contact {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+.btn-contact button {
+    padding: 10px 100px;
+    letter-spacing: 2px;
+    background-color: #38389e;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
 }
