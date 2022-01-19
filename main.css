@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     scroll-behavior: smooth;
 }
 
@@ -104,43 +104,57 @@ h1 {
     flex-wrap: wrap;
 }
 
-.second-art img, p {
-    justify-content: space-around;
-    flex-direction: row;
-}
-
 .about {
-    font-size: 3.2em;
+    font-size: 3em;
     font-family: 'Raleway', sans-serif;
     color: #38389e;
     text-align: center;
     width: 100vw;
+    margin-top: 60px;
+    padding: 15px;
+    align-self: center;
 }
 
-.second-art img {
+.img-y-text {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    height: 50vh;
+    width: 85vw;
+}
+
+.img-y-text img {
     width: 25%;
     padding: 0 10px;
     margin: 0 10px;
+    border-radius: 50%;
 }
 
-.second-art p {
+.img-y-text p {
     width: 30%;
     font-size: 1em;
     font-family: 'Luxurious Roman', cursive;
     padding: 0 10px;
     margin: 0 10px;
+    align-self: center;
+    text-align: center;
 }
 
 .btn-contact {
     width: 100%;
     align-self: center;
     text-align: center;
+    display: flex;
+    height: 10vh;
 }
+
 .btn-contact button {
+    margin: auto;
     padding: 10px 100px;
     letter-spacing: 2px;
     background-color: #38389e;
-    color: #fff;
+    color: #deb887;
     border-radius: 10px;
     border: none;
     font-size: 1.2em;
