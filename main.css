@@ -174,8 +174,8 @@ h1 {
     font-size: 3em;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    height: 20%;
-    margin-top: 100px;
+    height: 17%;
+    margin-top: 90px;
     padding: 15px;
     width: 97%;
 }
@@ -193,4 +193,92 @@ h1 {
     object-fit: scale-down;
     width: 100px;
     padding: 25px;
+}
+
+/* 4TO ARTICLE: PROYECTOS */
+
+.forth-art {
+    height: 100vh;
+    background-color: #fcdcb1;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    color: #131353;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 15px;
+    height: 17%;
+    margin-top: 60px;
+}
+
+.all-cards {
+    height: 83%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card0 {
+    height: 340px;
+    width: 300px;
+    background-color: #38389e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-card0 {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-card0 img {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    object-fit: cover;
+}
+
+.card0 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.card1 {
+    height: 340px;
+    width: 300px;
+    background-color: #38389e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-card1 {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-card1 img {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    object-fit: cover;
+}
+
+.card1 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
 }
