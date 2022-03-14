@@ -154,10 +154,14 @@ h1 {
     padding: 10px 100px;
     letter-spacing: 2px;
     background-color: #38389e;
-    color: #deb887;
     border-radius: 10px;
     border: none;
     font-size: 1.2em;
+}
+
+.btn-contact a {
+    color: #deb887;
+    text-decoration: none;
 }
 
 /* 3ER ARTICLE: CONOCIMIENTOS */
@@ -303,16 +307,21 @@ h1 {
     text-align: center;
     padding: 15px;
     height: 17%;
-    margin-top: 20px;
+    margin-top: 18px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
 }
 
 .contact-descarga {
     display: flex;
-    flex-direction: row-reverse;
-    height: 60%;
-    border: solid black 2px;
-    justify-content: space-around;
+    flex-direction: column-reverse;
     align-items: center;
+    justify-content: space-around;
+    width: 40%;
 }
 
 .descarga {
@@ -321,9 +330,23 @@ h1 {
     font-family: 'Raleway', sans-serif;
 }
 
+.contact-iconos {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 47%;
+}
+
+.contact-iconos a {
+    display: flex;
+}
+
+.contact-iconos img {
+    width: 43px;
+}
+
 .contact-conteiner {
     width: 50%;
-    border: solid black 2px;
     align-self: center;
 }
 
@@ -335,17 +358,20 @@ h1 {
 
 .contact-form label {
     color: #fcdcb1;
+    font-size: 1em;
     font-family: 'Raleway', sans-serif;
 }
 
 .los_inputs {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .los_inputs input {
     border-radius: 5px;
     border-style: none;
+    font-size: 1em;
 }
 
 .el_textarea {
@@ -357,4 +383,16 @@ h1 {
     resize: none;
     border-radius: 10px;
     border-style: none;
+}
+
+.el_button {
+    align-self: center;
+}
+
+.el_button button{
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #fcdcb1;
 }
